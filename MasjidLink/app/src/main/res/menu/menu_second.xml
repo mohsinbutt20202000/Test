@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Second"
+    >
+    <item android:id="@+id/submiter"
+    android:title="@string/submiter"
+    android:orderInCategory="100"
+    app:showAsAction="always"
+        android:onClick="profilesave"
+    />
+</menu>

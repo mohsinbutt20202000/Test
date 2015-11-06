@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/country1">
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:padding="10dp"
+        android:onClick="select"
+        android:textColor="#000"
+
+
+
+
+        />
+
+
+    <!--<TextView
+        android:id="@+id/dial_code"
+        android:layout_width="195dp"
+        android:layout_height="40sp"
+        android:padding="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="900dp"/>
+    -->
+
+
+
+</LinearLayout>
